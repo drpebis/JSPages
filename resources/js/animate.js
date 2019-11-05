@@ -27,3 +27,18 @@ function myMove2(){
     rect.style.top = positionX/20 + 'px';
     }, refreshRate);
 }
+function myMove3(){
+    const refreshRate = 20000 / 60;
+    const maxXPosition = 880;
+    let rect = document.getElementById('animate3');
+    let speedX = 1;
+    let positionX = 1;
+    window.setInterval(() => {
+    positionX = positionX + speedX;
+        if (positionX > maxXPosition || positionX < 0) {
+        speedX = speedX * (-1);
+        }
+    rect.style.left = positionX + 'px';
+    rect.style.top = positionX/20 + 'px';
+    }, refreshRate);
+}
