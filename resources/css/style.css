@@ -18,17 +18,24 @@
 
 img.small {
   height: 100%;
-  width: 100%;
+  width: 140%;
 }
 img.med {
   height: 180%;
   width: 180%;
 }
 img.large {
-  height: 50%;
-  width: 50%;
+  height: 250%;
+  width: 250%;
 }
 
 img.flip {
   transform: scaleX(-1);
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
 }
