@@ -4,6 +4,8 @@
 #container {
   background-image: linear-gradient(lightblue, blue);
   position: relative;
+  width: 900px;
+  height: 600px;
 }
 #animate {
   width: 50px;
